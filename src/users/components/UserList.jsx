@@ -2,8 +2,8 @@ import React from 'react';
 import UserItem from "./UserItem";
 
 const UserList = (props) => {
-    console.log("WTF");
-    if (props.items === undefined) {
+    console.log(props.users);
+    if (props.users === undefined) {
         return (
             <div>
                 <h2>Not users found </h2>
@@ -12,8 +12,8 @@ const UserList = (props) => {
     }
     return (
         <ul>
-            {props.items.users.map(user => {
-                return <UserItem key={user.id} />;
+            {props.users.map(user => {
+                return <UserItem key={user.id} user={user} />;
             })}
         </ul>
     );
