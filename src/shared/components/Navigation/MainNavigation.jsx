@@ -8,9 +8,9 @@ const MainNavigation = () => {
                 <a className="navbar-item" href="https://bulma.io">
 
                     <div className="buttons">
-                        <a className="button is-primary">
+                        <div className="button is-primary">
                             <strong>UBER</strong>
-                        </a>
+                        </div>
 
                     </div>
                 </a>

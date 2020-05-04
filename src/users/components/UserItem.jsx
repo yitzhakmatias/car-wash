@@ -5,9 +5,9 @@ const UserItem = (props) => {
 
     return (
         <li>
-            <div><h2 className="title"> {props.user.firstName}</h2></div>
+            <div><h2 className="title"> {props.user.name}</h2></div>
+            <div>{props.user.lastName}</div>
             <div>{props.user.phone}</div>
-            <div>{props.user.company}</div>
         </li>
     );
 };
