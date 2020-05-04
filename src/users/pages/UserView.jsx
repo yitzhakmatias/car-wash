@@ -16,13 +16,13 @@ const UserView = () => {
 
                 const userData =res.data;
                 setUsers(userData);
-                console.log("PEPE this is Sparta " + users);
+              //  console.log("PEPE this is Sparta " + users);
             })
     };
     useEffect(() => {
-        console.log("init data");
+        //console.log("init data");
         getUsers();
-    }, [users]);
+    }, []);
 
     return (
         <div>
