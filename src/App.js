@@ -15,10 +15,7 @@ const App = () => {
                 <Route path="/" exact>
                     <UserView/>
                 </Route>
-                <Route path="/users" exact>
-                    <UserView/>
-                </Route>
-                <Route path="/owners">
+                <Route path="/owners" exact>
                     <OwnerView/>
                 </Route>
                 <Redirect to="/"/>
