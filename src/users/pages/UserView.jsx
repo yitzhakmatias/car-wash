@@ -1,12 +1,10 @@
 import React, {useState, useEffect} from "react";
 import UserList from "../components/UserList.jsx";
-import user from "../../Data/user.json";
+
 import axios from 'axios';
 
 
-const initialState = {
-    user
-};
+
 const UserView = () => {
     const [users, setUsers] = useState([]);
     const getUsers = async () => {

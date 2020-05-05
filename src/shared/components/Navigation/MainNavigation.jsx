@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../assets/uber.png'
+
 
 const MainNavigation = () => {
     return (
@@ -17,9 +17,9 @@ const MainNavigation = () => {
 
                 <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false"
                    data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true">Tex1</span>
+                    <span aria-hidden="true">Tex2</span>
+                    <span aria-hidden="true">Tex3</span>
                 </a>
             </div>
             <div id="navbarBasicExample" className="navbar-menu">
